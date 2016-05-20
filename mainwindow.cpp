@@ -699,7 +699,7 @@ void MainWindow::fileIsReady(QNetworkReply *reply)
 
 void MainWindow::on_pb_request_clicked()
 {
-    QString Key = "934d247353654f5e96763325161105";
+    QString Key = "key";
     QString Longitude = QString::number(ui->dbl_longitude->value());
     Longitude.replace(Longitude.indexOf(",")-1,1,".");
     QString Latitude = QString::number(ui->dbl_latitude->value());
